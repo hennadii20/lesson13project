@@ -1,0 +1,1174 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;    
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background: url('img/backgroundPicture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .8;
+    width: 100%;
+    height: 1000px;
+    background-color: #f9f9fb;
+    padding: 2rem;
+}
+
+.header__section__left-part {
+    width: 40%;
+    height: 700px;
+}
+
+.header__section {
+    margin-top: 8rem;
+    width: 100%;
+}
+
+.header__section__head {
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.header__logo {
+    margin-left: 5px;
+    width: 25%;
+    opacity: 0.6;
+}
+
+.header__section__headline {
+    font-family: "Raleway", sans-serif;
+    font-size: 70px;
+    opacity: .6;
+    margin-bottom: 20px;
+}
+
+.header__section__text {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2em;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    opacity: .7;
+}
+
+.header__section__btn {
+    width: 200px;
+    height: 60px;
+    background-color: #ff6033;
+    border: 0 hsl(0, 0%, 100%, .1);
+    box-shadow: 0 2px 5px  rgb(176, 135, 125, .5);
+    font-size: 1.2em; 
+    font-family: "Raleway-light", sans-serif;
+    font-weight:lighter;
+    color: hsl(0, 0%, 100%, .4);
+}
+
+ /* the navigation bar*/
+.nav {
+    display: block;
+    width: 60%;
+}
+
+.navbar {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 2em;
+}
+
+.navbar__item{
+    display: block;
+    margin: 0  20px 20px 20px;
+}
+
+.navbar__item__title{
+    padding: 0;
+    font-family: "Raleway";
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    opacity: .5;
+}
+
+        /* the active item of navigation bar*/
+
+.navbar__item--active {
+    border-top: 4px solid #ff6033;
+}
+
+        /* SECTION  ABOUT US  */
+
+.dishsection{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 250px;
+    background-color: #00c4c4;
+    padding: 2rem;
+}
+
+ .dishsection__plate {
+    display: block;
+    width: 40%;  
+}
+
+.dishsection__description {
+     display: block;
+     width: 55%;
+}
+
+.dishsection__title {
+    font-family: "Raleway", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(255, 255, 255, .6);
+    padding: 10px;
+}
+
+.dishsection__title__info {
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: rgba(255, 255, 255, .8);
+    padding: 5px 10px;
+}
+  
+.dishsection__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+             /* SECTION  OUR  SERVICE  */
+
+.our__service {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-color:#70bfff;
+}
+
+.service__title {
+    position: absolute;
+    bottom: 15rem;
+    left: 930px;
+    text-align: center;
+    color: rgba(255, 255, 255, .7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    padding-top: 2rem;
+} 
+
+.our__service__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 4rem auto;
+}
+            
+.our__service__table{
+    width: 60%;
+}
+                        
+.service__table__row {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+                        
+.row-icon {
+    width: 190px;
+    height: 100px;
+    padding: 20px;
+    border-left: 1px solid rgb(170, 166, 166);
+    z-index: 5;
+    bottom: 0;    
+}
+                        
+.service__table__text {
+    width: 100%;
+    height: 75px;
+    font-weight: bold;
+}
+
+.service__table__text p {
+    font-size: 30px;
+    font-family:  "Raleway", sans-serif;
+    color: rgba(0, 0, 0, .8);
+    padding-top: 1rem;
+}
+
+.our__service__img {
+    width: 30%;
+    margin: 0 0 0 7rem;
+}
+
+                /*-- OUR  gallery SECTION --*/
+
+.our__gallery {
+    width: 100%;
+    height: 1300px;
+    background-color: #FFE92F;
+    text-align: center;
+}
+
+.our__gellery__header {
+    width: 80%;
+    margin: 20px auto;
+}
+.our__gellery__headline {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.our__gallery__text {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.gallery__images {
+    width: 1190px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.gallery__box-img {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.box__img {
+    margin-top: 15px;
+}
+
+.gallery__btn {
+    width: 200px;
+    height: 60px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(219, 213, 213, .7);
+    background-color: #5585a2;  
+    margin-top: 20px;
+}
+                    
+    /* SUBSCRIPTION SECTION */
+
+.subscription__box {
+    display: block;
+    width: 100%;
+    height: 600px;
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscription__title {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 0, 0, .7);
+    margin: 0;
+    padding-top: 40px;
+}
+
+.subscription__header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.subscription__text {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+}
+.subscription__input {
+    width: 400px;
+    height: 60px;
+    border: 1px solid #3a3939;
+    margin-top: 90px;
+    font-size: 1em;
+}
+
+.sub__btn input::placeholder {
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.subscription__btn {
+    width: 200px;
+    height: 60px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(219, 213, 213, .7);
+    background-color: #96b92c;
+   margin: 10px 0 50px 20px;
+}
+.subscription__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+        /*BLOG   SECTION*/
+
+
+.our__blog {
+    display: block;
+    width: 100%;
+    height: 700px;
+    background-color: #B07CF7;
+    margin: 0 auto;
+    padding: 10px;
+}
+                
+.our__blog__header {
+    display: block;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.our__blog__headline {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, .8);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+                
+.our__blog__text {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.1em;
+    color: rgb(255, 255, 255, .6);
+    padding-top: 15px;
+}
+
+.blog__picture-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 80%;
+    margin: 10rem auto 2rem;
+}
+     
+.blog__pictures {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.blog__Image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.blog__btn {
+    display: block;
+    width: 200px;
+    height: 60px;
+    font-size: 1.2rem;
+    font-family: AriHelvetica, sans-serif;
+    color: rgb(219, 213, 213, .7);
+     background-color: #5585a2;  
+    margin: 20px auto;
+}
+
+                    /*forms*/
+
+.main__box {
+    display: block;
+    width: 100%;
+    height: 800px;
+    background-image: url('img/Group\ 1.png');
+}
+
+                  
+.form-headline {   
+    font-size: 4em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .8);
+    padding-top: 100px;
+}
+                    
+.form-text {
+    font-size: 1.1 em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+                    
+.form__footer {
+    display: block;
+    width: 100%x;
+    height: 150px;
+    background-color: rgb(5, 5, 31);
+}
+                    
+.form__colomns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 70%;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+                    
+.form__colomn__left {
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin: 10px;
+}
+
+.form__colomn__left li {
+    width: 400px;
+}
+                    
+.form__colomn__right {
+    display: block;
+    width: 50%;
+    height: 200px;
+    padding-left: 100px;
+}
+                    
+.form__inputs{
+    list-style-type: none;
+}
+                    
+                    
+.form_inputs__name {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(177, 169, 169);
+    border: 2px solid rgb(99, 75, 75, .7);
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+                    
+textarea {
+    width: 100%;
+    height: 100px;
+    background-color:  rgb(177, 169, 169);
+    color: white;
+    font-size: 20px;
+    resize: none;
+    padding-left: 10px;
+}
+                    
+.form__colomn__right  h4, p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    margin: 10px;
+                    }
+                    
+.footer_text {
+    color: rgb(255, 255, 255, .4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+                    
+.footer__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 200px;
+    padding-top: 60px;
+    margin:  0 auto;
+}
+                    
+.footer__box-item {
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+ 
+
+@media (min-width: 1200px){
+
+.header__section__headline {
+    font-size: 90px;
+}
+
+.header {
+    padding: 60px;
+}
+
+.header__section__text {
+    padding-bottom: 40px;
+}
+
+.header__logo {
+    margin-left: 5px;
+    width: 40%;
+    opacity: 0.6;
+}
+    
+.dishsection{
+    height: 650px;
+}
+    
+.dishsection__title, .service__title, .our__gellery__headline {
+    font-size: 90px;   
+}
+
+.our__service {
+    height: 600px;
+}
+
+.our__gallery {
+    height: 1400px;
+}
+    
+.our__gallery__box{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.gallery__btn {
+    width: 250px;
+    height: 70px;
+    font-size: 1.5em;
+}
+    
+.box__column{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.pictures__substitute-middle,.pictures__substitute-small{
+    display: none;
+}
+}
+   
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+.header__section {
+    margin-top: 180px;
+    width: 60%;
+}
+.header__section__left-part{
+    width: 100%;
+}
+
+.header__logo {
+    width: 20%;
+}
+
+.header__section__headline {
+    font-size: 70px;
+}
+
+.header__section__text {
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+.navbar {
+   display: none;   
+}
+
+.dishsection{
+    height: 500px;
+    padding: 1rem;
+}
+
+.dishsection__plate {
+    display: block;
+    width: 40%;  
+    margin-top: 40px;
+}
+
+.dishsection__description {
+    display: block;
+    width: 60%;
+}
+
+.dishsection__title {
+    text-align: center;
+    color: rgb(255, 255, 255, .6);
+    padding: 10px;
+}
+
+.dishsection__title__info {
+    font-size: 1.2em;
+}
+    
+.list__item-row-text {
+    font-size: 20px;
+}   
+    
+.dishsection__title {
+    font-size: 70px;
+}
+
+.our__service__img {
+   display: none;
+}
+
+.our__service__wrapper {
+    margin: 1rem auto;
+}
+
+.our__service__table{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.service__title {
+    position: static;
+    font-size: 3rem;
+    padding: 1rem;
+    margin:0.5rem auto;
+}
+
+.our__gallery {
+    height: 2680px;
+    background-color: #FFE92F;
+}
+
+.gallery__images,
+.pictures__substitute-small {
+    display: none;
+}
+
+.pictures__substitute-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures__substitute-middle img {
+    margin: 1rem;
+}
+
+.subscription__title {
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.our__blog__headline {
+    font-size: 70px;
+}
+
+.blog__picture-box{
+    width: 95%;
+    margin: 10rem auto 2rem;
+}
+
+.main__box {
+    height: 750px;
+}
+
+.form-headline {   
+    font-size: 70px;
+}
+
+.form-text {
+    font-size: 1.2 em;
+    padding: 0;
+    margin: 10px;
+}
+
+.form__colomns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+}
+
+
+@media  (min-width: 768px) and (max-width: 991px){
+
+.header__section__headline {
+    font-size:50px;        
+}
+
+.header__section__left-part{
+    width: 60%;
+} 
+
+.header__section__text {
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+.nav{
+    display: none;
+}
+
+.list__item-row-text {
+    font-size: 15px;
+}     
+    
+.form__colomn__right {
+    display: none;
+}
+      
+.form__colomns{
+    margin: 0 auto;
+}
+    
+.dishsection{
+    height: 600px;
+    padding: 1rem;
+}
+
+.dishsection__title {
+    font-size: 50px;
+}
+
+.dishsection__title__info {
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.dishsection__img {
+    width:70%;
+    margin: 70px auto;
+}
+
+.our__service {
+    height: 400px;
+}
+
+.our__service__img {
+    display: none;
+}
+
+.service__title p{
+    font-size: 50px;
+}
+ 
+.our__service__wrapper {
+     margin: 1.2rem auto;
+}
+ 
+.our__service__table{
+     width: 80%;
+     margin: 0 auto;
+}
+
+.service__table__text p {
+     font-size: 22px;
+     padding: 0.4rem;
+}
+
+.row-icon {
+     width: 100px;
+     height: 50px;
+     padding: 10px;
+}
+
+.service__table__row {
+     height: 55px;
+}
+ 
+ .service__title {
+    position: static;
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin:0.5rem auto;
+ }
+
+.our__gallery {
+    height: 2600px;
+    background-color: #FFE92F;
+}
+
+.gallery__images, .pictures__substitute-small {
+    display: none;
+}
+
+.pictures__substitute-middle {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.pictures__substitute-middle img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.subscription__title{
+    font-size: 50px;
+}
+
+.subscription__text {
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.subscription__btn {
+    width: 200px;
+    height: 60px;
+    font-size: 1.2em;
+   margin: 10px 0 50px 0;
+}
+
+span .subscription__btn{
+    display: block;
+    margin-top: 20px;
+}
+
+.our__blog{
+    height: 1250px;
+}
+
+.our__blog__headline{
+    font-size: 50px;
+}
+
+.main__box{
+    height: 500px;
+}
+
+.form-headline {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.form-text {
+    padding-top: 10px;
+}
+
+.form__colomns {
+    width: 50%;
+}
+
+.form__colomn__left{
+    margin: 0 auto;
+}
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+.header {
+    height: 700px;
+}
+    
+.header__section__headline {
+    font-size:40px;       
+}
+    
+.header__section {
+    margin-top: 5rem;
+    width: 100%;
+}
+    
+.header__logo {
+    margin-left: 5px;
+    width: 30%;
+    opacity: 0.6;
+}
+        
+.header__section__left-part{
+    width: 80%;
+} 
+        
+.header__section__text {
+    font-size: 1em;
+    padding-bottom: 20px;
+    line-height: 25px;
+    margin-left: 0;
+}
+    
+.header__section__btn {
+    width: 170px;
+    height: 50px;
+    font-size: 0.8em; 
+}
+
+.nav{
+    display: none;
+}  
+
+.header{
+    background-image: none;
+}
+
+.dishsection {
+    height: 480px;
+}
+    
+.dishsection__plate {
+   display: none;
+}
+
+.dishsection__description {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dishsection__title {
+    font-size: 50px;
+}
+
+.dishsection__title__info {
+    font-size: 1.2em;
+}
+
+.our__service {
+    height: 400px;
+}
+
+.our__service__img {
+    display: none;
+}
+ 
+.our__service__wrapper {
+     margin: 1rem auto;
+}
+ 
+.our__service__table{
+     width: 90%;
+     margin: 0 auto;
+}
+
+.service__table__text p {
+    font-size: 22px;
+    padding: 0.4rem;
+}
+
+.row-icon {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+}
+
+.service__table__row {
+    height: 55px;
+}
+ 
+.service__title {
+    position: static;
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin:0.5rem auto;
+}
+
+.our__gallery {
+    height: 2600px;
+    background-color: #FFE92F;
+}
+
+.gallery__images, .pictures__substitute-small {
+    display: none;
+}
+
+.gellery__headline-text {
+    font-size: 40px;
+}
+
+.gallery__text {
+    font-size: 1.2em;
+}
+
+.pictures__substitute-middle {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.pictures__substitute-middle img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.subscription__title {
+    font-size: 40px;
+}
+
+.subscription__text{
+    font-size: 1.2em;
+}
+
+.our__blog {
+    height: 1250px; 
+}
+
+.our__blog__headline {
+    font-size: 40px;
+}
+
+.our__blog__text {
+    font-size: 1.2em;
+}
+
+.main__box {
+    height: 650px;
+}
+
+.form-headline {
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.form-text {
+    padding-top: 0;
+}
+
+.form__colomns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.form__colomn__right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0;
+}
+
+.colomn__right__box {
+    display: block;
+    width: 30%;
+}
+}
+
+
+@media  (max-width: 576px) {
+
+.header {
+    height: 600px;
+    background-image: none;
+}
+
+.header__section__headline {
+    font-size:30px;       
+}
+
+.header__section {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.header__logo {
+    margin-left: 5px;
+    width: 35%;
+    opacity: 0.6;
+}
+    
+.header__section__left-part{
+    width: 80%;
+} 
+    
+.header__section__text {
+    font-size: 0.6em;
+    padding-bottom: 20px;
+    line-height: 15px;
+    margin-left: 0;
+}
+
+.header__section__btn {
+    width: 150px;
+    height: 40px;
+    font-size: 0.8em; 
+}
+
+.navbar {
+    display: none;
+}
+
+.dishsection__plate {
+    display: none;
+}
+
+.our__gallery {
+    height: 1200px;
+    background-color: #FFE92F;
+}
+
+.gallery__images, .pictures__substitute-middle {
+    display: none;
+}
+
+.pictures__substitute-small {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.pictures__substitute-middle img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0.2rem;
+}
+}  
+
